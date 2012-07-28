@@ -15,6 +15,7 @@
 		E9CC167115C40C2E0015B57B /* GMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CC167015C40C2E0015B57B /* GMAppDelegate.m */; };
 		E9CC167415C40C2E0015B57B /* GMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CC167315C40C2E0015B57B /* GMViewController.m */; };
 		E9CC167715C40C2E0015B57B /* GMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9CC167515C40C2E0015B57B /* GMViewController.xib */; };
+		E9CC167E15C415240015B57B /* lion.png in Resources */ = {isa = PBXBuildFile; fileRef = E9CC167D15C415240015B57B /* lion.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,16 @@
 		E9CC166015C40C2E0015B57B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E9CC166215C40C2E0015B57B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E9CC166415C40C2E0015B57B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E9CC166815C40C2E0015B57B /* GMPageCurlLeftOrRight-Info.plist */ = {isa = PBXFileReference; path = "GMPageCurlLeftOrRight-Info.plist"; sourceTree = "<group>"; };
+		E9CC166815C40C2E0015B57B /* GMPageCurlLeftOrRight-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GMPageCurlLeftOrRight-Info.plist"; sourceTree = "<group>"; };
 		E9CC166A15C40C2E0015B57B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E9CC166C15C40C2E0015B57B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E9CC166E15C40C2E0015B57B /* GMPageCurlLeftOrRight-Prefix.pch */ = {isa = PBXFileReference; path = "GMPageCurlLeftOrRight-Prefix.pch"; sourceTree = "<group>"; };
-		E9CC166F15C40C2E0015B57B /* GMAppDelegate.h */ = {isa = PBXFileReference; path = GMAppDelegate.h; sourceTree = "<group>"; };
+		E9CC166E15C40C2E0015B57B /* GMPageCurlLeftOrRight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GMPageCurlLeftOrRight-Prefix.pch"; sourceTree = "<group>"; };
+		E9CC166F15C40C2E0015B57B /* GMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMAppDelegate.h; sourceTree = "<group>"; };
 		E9CC167015C40C2E0015B57B /* GMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMAppDelegate.m; sourceTree = "<group>"; };
-		E9CC167215C40C2E0015B57B /* GMViewController.h */ = {isa = PBXFileReference; path = GMViewController.h; sourceTree = "<group>"; };
+		E9CC167215C40C2E0015B57B /* GMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMViewController.h; sourceTree = "<group>"; };
 		E9CC167315C40C2E0015B57B /* GMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMViewController.m; sourceTree = "<group>"; };
 		E9CC167615C40C2E0015B57B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GMViewController.xib; sourceTree = "<group>"; };
+		E9CC167D15C415240015B57B /* lion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lion.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		E9CC166715C40C2E0015B57B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E9CC167D15C415240015B57B /* lion.png */,
 				E9CC166815C40C2E0015B57B /* GMPageCurlLeftOrRight-Info.plist */,
 				E9CC166915C40C2E0015B57B /* InfoPlist.strings */,
 				E9CC166C15C40C2E0015B57B /* main.m */,
@@ -152,6 +155,7 @@
 			files = (
 				E9CC166B15C40C2E0015B57B /* InfoPlist.strings in Resources */,
 				E9CC167715C40C2E0015B57B /* GMViewController.xib in Resources */,
+				E9CC167E15C415240015B57B /* lion.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +243,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GMPageCurlLeftOrRight/GMPageCurlLeftOrRight-Prefix.pch";
 				INFOPLIST_FILE = "GMPageCurlLeftOrRight/GMPageCurlLeftOrRight-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -250,6 +255,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GMPageCurlLeftOrRight/GMPageCurlLeftOrRight-Prefix.pch";
 				INFOPLIST_FILE = "GMPageCurlLeftOrRight/GMPageCurlLeftOrRight-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

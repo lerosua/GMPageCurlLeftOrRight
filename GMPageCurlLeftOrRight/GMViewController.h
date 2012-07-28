@@ -10,4 +10,9 @@
 
 @interface GMViewController : UIViewController
 
+@property (nonatomic,retain) IBOutlet UIView *pageView;
+@property (nonatomic,retain) UIView *containerView;
+- (IBAction)leftBtn:(id)sender;
+- (IBAction)rightBtn:(id)sender;
+
 @end
