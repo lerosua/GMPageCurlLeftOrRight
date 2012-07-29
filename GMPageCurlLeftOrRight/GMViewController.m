@@ -27,6 +27,7 @@
 - (void)viewDidLoad
 {
 
+    [self addViewPrev:self.pageView];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
@@ -58,6 +59,18 @@
 - (IBAction)rightBtn:(id)sender{
 
     [self viewAnimationTransitionCurlRight:self.pageView toLeft:YES];
+}
+
+-(void) addViewPrev:(UIView *)view {
+    UIView *parent = self.view;
+    UIView * containerView = [[[UIView alloc] initWithFrame:view.bounds] autorelease];
+    containerView.frame = view.bounds;
+    containerView.transform = CGAffineTransformMakeRotation(M_PI_2*3);
+    
+    
+    [parent addSubview:containerView];
+    [containerView addSubview:view];
+    view.transform = CGAffineTransformMakeRotation(-M_PI_2*3);
 }
 
 - (void) viewAnimationTransitionCurlRight:(UIView *) view toLeft:(BOOL) left {

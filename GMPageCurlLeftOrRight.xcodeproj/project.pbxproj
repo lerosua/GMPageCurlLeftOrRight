@@ -16,6 +16,7 @@
 		E9CC167415C40C2E0015B57B /* GMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CC167315C40C2E0015B57B /* GMViewController.m */; };
 		E9CC167715C40C2E0015B57B /* GMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9CC167515C40C2E0015B57B /* GMViewController.xib */; };
 		E9CC167E15C415240015B57B /* lion.png in Resources */ = {isa = PBXBuildFile; fileRef = E9CC167D15C415240015B57B /* lion.png */; };
+		E9CC168015C577730015B57B /* mx.png in Resources */ = {isa = PBXBuildFile; fileRef = E9CC167F15C577730015B57B /* mx.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		E9CC167315C40C2E0015B57B /* GMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMViewController.m; sourceTree = "<group>"; };
 		E9CC167615C40C2E0015B57B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GMViewController.xib; sourceTree = "<group>"; };
 		E9CC167D15C415240015B57B /* lion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lion.png; sourceTree = "<group>"; };
+		E9CC167F15C577730015B57B /* mx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mx.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		E9CC166715C40C2E0015B57B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E9CC167F15C577730015B57B /* mx.png */,
 				E9CC167D15C415240015B57B /* lion.png */,
 				E9CC166815C40C2E0015B57B /* GMPageCurlLeftOrRight-Info.plist */,
 				E9CC166915C40C2E0015B57B /* InfoPlist.strings */,
@@ -156,6 +159,7 @@
 				E9CC166B15C40C2E0015B57B /* InfoPlist.strings in Resources */,
 				E9CC167715C40C2E0015B57B /* GMViewController.xib in Resources */,
 				E9CC167E15C415240015B57B /* lion.png in Resources */,
+				E9CC168015C577730015B57B /* mx.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
